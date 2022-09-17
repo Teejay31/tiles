@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <title>Tiles-Format</title>
+</head>
+<body>
+    <main>
+        <section class="container-fluid pt-3"> 
+            <div class="text-center fs-5 text-black fw-bold pb-3">
+                <caption>Various Psychologist profiles <br> and their information</caption>      
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper mb-5">
+                    <div class="swiper-slide">
+                        <div class="card p-3 text-center w-75 w-md m-auto bg-primary">
+                            <div>
+                                <img src="img/ariely.jpg" alt="image" class="img-fluid bord">
+                                <h5 class="fw-bold text-white fs-4">Dan Ariely</h5>
+                            </div>
+                            <div class="pt-2">
+                                <h6 class="text-muted">Education Qualification</h6>
+                                <h5>Cognitive Psychology (PhD)</h5>
+                            </div>
+                            <div class="pt-1">
+                                <h6 class="text-muted">Experience</h6>
+                                <h5>Professor of Psychology</h5>
+                            </div>
+                            <div class="pb-3 pt-1">
+                                <h6 class="text-muted">Speciality</h6>
+                                <h5>Behavioral Economics</h5>
+                            </div>
+                            <a href="#" class="w-100"><button class="btn w-100 btn-success">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-3 text-center w-75 w-md m-auto bg-primary">
+                            <div>
+                                <img src="img/gole.jpg" alt="image" class="img-fluid bord">
+                                <h5 class="fw-bold text-white fs-4">Daniel Goleman</h5>
+                            </div>
+                            <div class="pt-2">
+                                <h6 class="text-muted">Education Qualification</h6>
+                                <h5>Clinical Psychology (PhD)</h5>
+                            </div>
+                            <div class="pt-1">
+                                <h6 class="text-muted">Experience</h6>
+                                <h5>Professor of Psychology</h5>
+                            </div>
+                            <div class="pb-3 pt-1">
+                                <h6 class="text-muted">Speciality</h6>
+                                <h5>Social Psychology</h5>
+                            </div>
+                            <a href="#" class="w-100"><button class="btn w-100 btn-success">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-3 text-center w-75 w-md m-auto bg-primary">
+                            <div>
+                                <img src="img/lisa.jpg" alt="image" class="img-fluid bord">
+                                <h5 class="fw-bold text-white fs-4">Lisa Feldman Barrett</h5>
+                            </div>
+                            <div class="pt-2">
+                                <h6 class="text-muted">Education Qualification</h6>
+                                <h5>Clinical Psychology (PhD)</h5>
+                            </div>
+                            <div class="pt-1">
+                                <h6 class="text-muted">Experience</h6>
+                                <h5>Professor of Psychology</h5>
+                            </div>
+                            <div class="pb-3 pt-1">
+                                <h6 class="text-muted">Speciality</h6>
+                                <h5>Biological Psychology</h5>
+                            </div>
+                            <a href="#" class="w-100"><button class="btn w-100 btn-success">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-3 text-center w-75 w-md m-auto bg-primary">
+                            <div>
+                                <img src="img/john.jpg" alt="image" class="img-fluid bord">
+                                <h5 class="fw-bold text-white fs-4">John R. Anderson</h5>
+                            </div>
+                            <div class="pt-2">
+                                <h6 class="text-muted">Education Qualification</h6>
+                                <h5>Psychology (PhD)</h5>
+                            </div>
+                            <div class="pt-1">
+                                <h6 class="text-muted">Experience</h6>
+                                <h5>Professor of Psychology</h5>
+                            </div>
+                            <div class="pb-3 pt-1">
+                                <h6 class="text-muted">Speciality</h6>
+                                <h5>Cognitive Psychology</h5>
+                            </div>
+                            <a href="#" class="w-100"><button class="btn w-100 btn-success">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-3 text-center m-auto w-md w-75 bg-primary">
+                            <div>
+                                <img src="img/bloom.jpg" alt="image" class="img-fluid bord">
+                                <h5 class="fw-bold text-white fs-4">Paul Bloom</h5>
+                            </div>
+                            <div class="pt-2">
+                                <h6 class="text-muted">Education Qualification</h6>
+                                <h5>Cognitive Psychology (PhD)</h5>
+                            </div>
+                            <div class="pt-1">
+                                <h6 class="text-muted">Experience</h6>
+                                <h5>Professor of Psychology</h5>
+                            </div>
+                            <div class="pb-3 pt-1">
+                                <h6 class="text-muted">Speciality</h6>
+                                <h5>Psycholinguistics</h5>
+                            </div>
+                            <a href="#" class="w-100"><button class="btn w-100 btn-success">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            426: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+        },
+      });
+    </script>
+
+</body>
+</html>
